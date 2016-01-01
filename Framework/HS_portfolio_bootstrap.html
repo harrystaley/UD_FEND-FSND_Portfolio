@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- TODO: Add modals for projects 5 and 6-->
+
 <head>
   <!-- Created by Harry Staley for Project 1 of the Udacity Front End Web Devlopment Nanodegree-->
   <!-- Images were used freely from http://www.freeimages.com or from their respective style guides at Udacity.com and Linkedin.com -->
@@ -72,33 +74,47 @@
       </div>
       <div class="row">
         <!-- Project 1 - online portfolio -->
-        <div id="portfolio" class="col-md-6">
-          <img class="img-responsive picture" src="images/web-design-1243586-640x480.jpg" alt="Computer keys spelling out web with the word design intersecting vertically." data-toggle="modal" data-target="#project1">
-          <h3>Online Portfolio</h3>
-          <p><a href="https://github.com/moagm316/FENanoDeg/tree/master/FE_Nanodegree_Project_1-Portfolio">Github Repository</a>
+        <div id="portfolio" class="col-md-4">
+          <img class="img-responsive picture portfolioImg" src="images/Online_Portfolio_Screenshot.png" alt="A screenshot of my online portfolio" data-toggle="modal" data-target="#project1">
+          <h3 class="text-center">Online Portfolio</h3>
+          <p class="text-center"><a href="https://github.com/moagm316/FENanoDeg/tree/master/FE_Nanodegree_Project_1-Portfolio">Online Portfolio Github Repository</a>
           </p>
         </div>
         <!-- Project 2 - online resume -->
-        <div id="resume" class="col-md-6">
-          <img class="img-responsive picture" src="images/page_under_construction.jpg" alt="page under construction" data-toggle="modal" data-target="#project2">
-          <h3>Project 2</h3>
-          <p><a href="http://github.com">Link to project</a>
+        <div id="resume" class="col-md-4">
+          <img class="img-responsive picture portfolioImg" src="images/Online_Resume_Screenshot.png" alt="A screenshot of my online resume." data-toggle="modal" data-target="#project2">
+          <h3 class="text-center">Online Resume</h3>
+          <p class="text-center"><a href="https://github.com/moagm316/FE_NanoDeg_P2-Resume">Online Resume Github Repository</a>
+          </p>
+        </div>
+        <!-- Project 3 - videogame -->
+        <div id="videogame" class="col-md-4">
+          <img class="img-responsive picture portfolioImg" src="images/page_under_construction.jpg" alt="page under construction" data-toggle="modal" data-target="#project3">
+          <h3 class="text-center">Project 3</h3>
+          <p class="text-center"><a href="http://github.com">Link to project</a>
           </p>
         </div>
       </div>
       <div class="row">
-        <!-- Project 3 - videogame -->
-        <div id="videogame" class="col-md-6">
-          <img class="img-responsive picture" src="images/page_under_construction.jpg" alt="page under construction" data-toggle="modal" data-target="#project3">
-          <h3>Project 3</h3>
-          <p><a href="http://github.com">Link to project</a>
+        <!-- Project 4 - videogame -->
+        <div id="videogame" class="col-md-4">
+          <img class="img-responsive picture portfolioImg" src="images/page_under_construction.jpg" alt="page under construction" data-toggle="modal" data-target="#project3">
+          <h3 class="text-center">Project 4</h3>
+          <p class="text-center"><a href="http://github.com">Link to project</a>
           </p>
         </div>
-        <!-- Project 4-->
-        <div id="project4" class="col-md-6">
-          <img class="img-responsive picture" src="images/page_under_construction.jpg" alt="page under construction" data-toggle="modal" data-target="#project4">
-          <h3>Project 4</h3>
-          <p><a href="http://github.com">Link to project</a>
+        <!-- Project 5-->
+        <div id="project5" class="col-md-4">
+          <img class="img-responsive picture portfolioImg" src="images/page_under_construction.jpg" alt="page under construction" data-toggle="modal" data-target="#project4">
+          <h3 class="text-center">Project 5</h3>
+          <p class="text-center"><a href="http://github.com">Link to project</a>
+          </p>
+        </div>
+        <!-- Project 6-->
+        <div id="project6" class="col-md-4">
+          <img class="img-responsive picture portfolioImg" src="images/page_under_construction.jpg" alt="page under construction" data-toggle="modal" data-target="#project4">
+          <h3 class="text-center">Project 6</h3>
+          <p class="text-center"><a href="http://github.com">Link to project</a>
           </p>
         </div>
       </div>
@@ -122,8 +138,8 @@
           <h4 class="modal-title" id="Online-Portfolio-title">Online Portfolio</h4>
         </div>
         <div class="modal-body">
-          <img class="img-responsive picture" src="images/cat-and-mouse-1366815-640x640.jpg" srcset="images/cat-and-mouse-1366815-640x640.jpg 1x, images/cat-and-mouse-1366815-1280x1280.jpg 2x" alt="A picture of a kitten sitting on the side of a laptop computer.">
-          <p>This was my first project. I learned allot about HTML and CSS. In this project I used the Bootstrap framework in addition to custom CSS to create the Online Portfolio you are using now. Click the links below to get more info on the materials that I used.</p>
+          <img class="img-responsive picture" src="images/Online_Portfolio_Screenshot.png" alt="An image of my Online Portfolio">
+          <p>This was my first project. I learned allot about HTML and CSS. In this project I used the Bootstrap framework in addition to custom CSS to create the Online Portfolio you are using now. Click the links below to get more info on the technologies that I used.</p>
           <!-- Nav to sites that I have used in this project -->
           <nav>
 
@@ -154,12 +170,18 @@
           <h4 class="modal-title" id="Project2-title">Project 2</h4>
         </div>
         <div class="modal-body">
-          <img class="img-responsive" src="images/page_under_construction.jpg" alt="page under construction"> This was my second project in this class. I learned a lot about HTML and CSS.
+          <img class="img-responsive" src="images/Online_Resume_Screenshot.png" alt="Visual of Online Resume"> 
+          <p>This was my second project. While using the HTML, CSS, and Bootstrap framework I learned previously I used I used Javascript, and JQuery to manipulate the HTML (DOM) to create a more dynamic web page.I also got a great introduction on how to use a JSON to store data for later use on the page. Click the links below to get more info on the new technologies that I used.</p>
           <!-- Nav to sites that I have used in this project -->
           <nav>
 
             <ul class="nav nav-pills nav-stacked">
-              <!-- TODO: add nav list items for this project -->
+              <li role="presentation"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a>
+              </li>
+              <li role="presentation"><a href="https://jquery.com/">JQuery</a>
+              </li>
+              <li role="presentation"><a href="http://www.json.org/">JSON</a>
+              </li>
             </ul>
 
           </nav>

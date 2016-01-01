@@ -37,6 +37,11 @@ body {
 	min-width: 48px;
 }
 
+.portfolioImg {
+	height: 300px;
+	width: 300px;
+}
+
 .picture {
 	display: block;
 	margin: 0 auto 10px;
